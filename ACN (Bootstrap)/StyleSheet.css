@@ -399,7 +399,6 @@ nav ul {
 
 .brand {
     padding: 21px 15px 15px 4px;
-    display: inline-block !important;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -762,5 +761,9 @@ footer p {
         text-transform: uppercase;
         width: 45px;
         font-size: 11px;
+    }
+
+    .brand {
+        display: inline-block !important;
     }
 }
